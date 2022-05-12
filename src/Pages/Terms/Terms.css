@@ -1,0 +1,6 @@
+.terms-content {
+    background: var(--white);
+    box-shadow: var(--box-shadow-card);
+    padding: 3em !important;
+    margin: 16px !important;
+}

@@ -1,0 +1,1 @@
+export const JSON_API = 'https://founder-admin-dashboard.herokuapp.com';

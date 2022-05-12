@@ -1,0 +1,453 @@
+/* Global Styling */
+.deal-lineitem h5 {
+    color: #565656;
+    font-family: NotoRegular;
+    font-weight: 600;
+}
+
+.deal-investment-section .ant-breadcrumb {
+    background: #fff;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.deal-investment-section .container {
+    margin-top: 95px;
+}
+.deal-lineitem .company-details-sec-div {
+    color: #565656;
+    font-family: NotoRegular;
+    font-weight: 600;
+}
+
+.deal-lineitem .about-company,
+ .about-company-borderd {
+    font-family: 'NotoRegular';
+    font-weight: 500;
+    color: #565656;
+    margin-top: 1.5em;
+    margin-bottom: 0px;
+    width: 80%;
+}
+
+.deal-lineitem  {
+  margin-top: 5.5em !important;
+  margin-bottom: 3em;
+  /* position: relative; */
+}
+
+.top-shelf-note {
+    min-height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.top-shelf-note div {
+    color: var(--primary);
+}
+
+.tabs-sec {
+    margin-top: 2em;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.over-view-sec {
+    border-bottom: 1px solid #f1f1f1;
+}
+.over-view-sec .background-section{
+    background: #dedede;
+    border-radius: 8px;
+    height: 300px;
+    margin-bottom: 3em;
+    width: 80%;
+}
+
+.over-view-sec h3 span {
+    color: #565656;
+    font-size: .9em;
+}
+
+.team {
+    margin-top: 3em;
+}
+
+.team-main {
+    display: flex;
+}
+
+.team-sec-one,
+.team-sec-two {
+    width: 40%;
+}
+
+.team-sec-one h3,
+.team-sec-two h3 {
+    font-weight: 500;
+}
+
+.team-sec-one div, 
+.team-sec-two div {
+    /* font-family: PopinRegular; */
+}
+
+.email-form {
+    width: 350px;
+}
+
+.email-form .ant-row {
+    width: 80%;
+    margin-right: 10px;
+}
+
+.email-form .ant-input-affix-wrapper {
+    border: 1px solid var(--primary);
+    background: var(--white); 
+    height: var(--fourty);
+}
+
+.email-join {
+    align-items: center;
+    display: flex;
+}
+
+.email-join .ant-btn {
+    width: auto;
+    background: var(--primary);
+    border-radius: 0px !important;
+    /* font-family: 'POPINREGULAR'; */
+    /* font-size: 1em; */
+    margin-top: 6px;
+    height: 38px;
+}
+
+.price-col {
+    margin: 16px 0px !important;
+}
+
+.shares-form {
+    box-shadow:  var( --box-shadow-card);
+    background: var(--white);
+    /* border-radius: var(--card-border-radius); */
+    margin: 3px;
+    padding: 2em;
+    position: fixed;
+   
+}
+
+.shares-form .shares-div {
+    align-items: center;
+    display: flex;
+    margin-top: 1em;
+}
+
+.shares-form .ant-form-item-label,
+.share-price-label {
+    width: 150px !important;
+    text-align: left;
+    font-family: NotoRegular;
+}
+.shares-form img {
+    margin-bottom: var(--padding-one-em);
+    width: 100px;
+}
+
+.shares-form .select-shares-label {
+    /* font-family: PopinRegular; */
+}
+
+.shares-form .share-price-label {
+    /* font-family: PopinRegular; */
+    /* padding-left: 1.5em;
+    padding-bottom: 8px; */
+}
+
+.company-detals-rich-sec .company-details-section {
+    padding-top: 2.5em !important;
+    z-index: 0;
+}
+
+.shares-form .ant-input-affix-wrapper {
+    border: 1px solid #565656;
+    background: var(--white); 
+    width: 100px;
+    /* height: var(--fourty); */
+}
+.shares-form .ant-input-affix-wrapper > input.ant-input {
+    text-align: right;
+    font-family: NotoRegular;
+    color: var(--primary);
+}
+.shares-form svg {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.shares-form .main-outlined {
+    display: none;
+}
+
+.shares-next-button .ant-btn {
+    background: #1582D4 0% 0% no-repeat padding-box;
+    border-radius: 0px !important;
+    width: 100px;
+    margin: auto;
+    font-family: NotoRegular;
+}
+
+.enter-email-card {
+    box-shadow:  var( --box-shadow-card);
+    border-radius: var(--card-border-radius);
+    background: var(--white) url("../../assets/images/emailSearch.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20% 100%;
+    margin: 3px;
+}
+
+.email-details-sec {
+    display: block;
+    margin: 3em auto;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    width: 95%;
+}
+
+.deal-investment-section .range-slider-div {
+    align-items: center;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: var(--padding-ten);
+}
+
+.shares-form .ant-form-item {
+    margin-bottom: var(--padding-ten);
+}
+
+.range-slider-div label {
+    color: var(--primary);
+    /* font-family: PopinRegular; */
+}
+
+.range-slider-div .ant-slider {
+    margin-left: var(--padding-ten);
+    margin-right: var(--padding-ten);
+    width: 100%;
+}
+
+.range-slider-div .ant-slider-track {
+    background-color: var(--primary);
+}
+
+.range-slider-div .ant-slider-handle {
+    border: 2px solid var(--primary);
+}
+
+.total-price-div, 
+.subscription-amount {
+    margin-top: var(--padding-one-em);
+}
+
+.subscription-amount {
+    text-align: center;
+    color: #262626;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: 'NotoRegular';
+}
+.subscription-amount label {
+    color: #1582D4;
+    font-family: 'NotoRegular';
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.shares-next-button {
+    align-items: center;
+    display: flex;
+    margin-top: var(--padding-one-em);
+}
+
+.shares-next-button p {
+    color: var(--primary);
+    cursor: pointer;
+    /* font-family: PopinRegular; */
+    margin: 0px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.price-sec .total-price-div .share-price-text {
+    border-left: 0px !important;
+    color: var(--primary);
+    /* border: 1px solid var(--primary); */
+    height: 40px;
+    padding: 10px 10px 10px 0px;
+    /* width: 76%; */
+    font-family: NotoRegular;
+    text-align: right;
+}
+.members-financial {
+    width: 100%;
+}
+.members-financial img {
+    width: 102%;
+    margin-left: -1%;
+    /* object-fit: cover; */
+}
+.members-financial hr {
+    background: #000;
+}
+.financial-h {
+    font-family: NotoBold;
+}
+.shares-form .ant-btn-primary[disabled],
+.shares-form .ant-btn-primary[disabled]:hover,
+.shares-form .ant-btn-primary[disabled]:focus,
+.shares-form .ant-btn-primary[disabled]:active {
+    background: var(--gray);
+    color: var(--primary);
+}
+
+.total-price-row-sec {
+    align-items: center;
+}
+.total-price-div {
+    align-items: center;
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+
+.total-price-div .multile-dolor {
+    /* padding-left: 6px; */
+    font-family: NotoRegular;
+    padding-right: 6px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .deal-investment-section .container {
+        margin-top: 55px !important;
+    }
+    .shares-form {
+        position: relative;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .email-details-sec h4,
+    .email-details-sec h2 {
+        max-width: 80%;
+    }
+
+    .team-main,
+    .email-join {
+        display: block;
+    }
+
+    .team-sec-one,
+    .team-sec-two {
+        width: 90% !important;
+    }
+
+    .team-sec-two {
+        margin-top: 2em;
+    }
+
+    .background-section,
+    .deal-lineitem p {
+        width: 100% !important;
+    }
+
+    .total-price-div .multile-dolor {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .total-price-row-sec {
+        display: flex;
+    }
+    .total-price-row-sec .price-sec {
+        width: 50%;
+    }
+
+    .total-price-row-sec .caliculation-sec{
+        width: 100%;
+    }
+
+    .shares-form .ant-input-affix-wrapper {
+        width: 100% !important;
+    }
+
+}
+
+.add-on-dolor {
+    border-right: 0px;
+    border: 1px solid var(--primary);
+    background: var(--gray);
+    height: 40px;
+    padding: 8px 15px 10px 15px;
+    font-weight: 700;
+    /* font-family: 'PopinMedium'; */
+}
+
+.company-details-section {
+    background: var(--white);
+    box-shadow: var(--box-shadow-card);
+    padding: 3em !important;
+    margin: 16px !important;
+    /* border-radius: 6px; */
+}
+
+
+.company-details-section-h,
+.company-details-section-sub-h {
+    color: #092D47 !important;
+    font-family: NotoBold;
+}
+
+.deal-investor-company-logo {
+    width: 100px;
+    border-radius: 100px;
+    height: 100px;
+    margin-right: 1em;
+    border: 1px solid #565656;
+    object-fit: contain;
+}
+
+.logo-content {
+    display: flex;
+}
+.company-details-section p {
+    color: #565656;
+    font-family: NotoRegular;
+    font-weight: 500;
+}
+
+.company-details-section .rdw-editor-main {
+    padding: 0px !important;
+    border: 0px !important;
+}
+
+.company-details-section .public-DraftStyleDefault-block {
+    margin-top: 0px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .email-details-sec h4 {
+        max-width: 80%;
+    }
+    .deal-investment-section .shares-form {
+        max-width: 38% !important;
+    }
+    #add-invester-card {
+        margin-left: 33.333% !important;
+        margin-top: 2em;
+    }
+}

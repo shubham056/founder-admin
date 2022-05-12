@@ -1,0 +1,21 @@
+.user-verified-status {
+    color: var(--green);
+    text-transform: capitalize;
+}
+
+.user-not-verified-status {
+    color: var(--red);
+    text-transform: capitalize;
+}
+
+.table-data-navigation{
+    cursor: pointer;
+}
+
+.admin-invester-main {
+    overflow-x: hidden;
+}
+
+.search-filter .ant-btn-primary {
+    height: 32px !important;
+}

@@ -1,0 +1,370 @@
+.admin-orders-main .ant-space-item {
+    width: 280px;
+}
+
+.admin-orders-main {
+    overflow-x: hidden;
+}
+
+.logo-company-name-table {
+  cursor: pointer;
+}
+
+.filter-image {
+    cursor: pointer;
+}
+
+.search-filter-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--padding-one-em);
+    width: 100%;
+}
+
+.search-filter-container .search-filter img {
+    width: var(--thirty-width);
+    padding-left: var(--padding-ten);
+}
+
+.search-filter-container .search-filter {
+    align-items: center;
+    display: flex;
+}
+
+.search-filter .add-opportunity-btn {
+    margin-right: 10px;
+    font-family: NotoRegular;
+}
+.pop-over-sec p {
+    /* font-family: PopinRegular; */
+}
+
+.orders-title h2 {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.order-footer-select {
+    margin-top: -3em;
+    z-index: 11;
+}
+
+.order-footer-select  .ant-select {
+    border: 1px solid var(--primary);
+    background: var(--white); 
+    /* font-family: PopinRegular; */
+    height: var(--fourty);
+
+}
+
+.order-footer-select .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: transparent !important;
+}
+
+.table-child-document {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.admin-orders-main .ant-table-tbody > tr > td:first-child {
+    /* display: flex; */
+    align-items: center;
+}
+
+.admin-orders-main .ant-table-tbody > tr > td:first-child span {
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+/*****Admin order details css****/
+
+.logo-name-admin {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo-name-admin img {
+    margin: 0px 0px 16px 0px !important;
+    width: 200px !important;
+}
+
+.logo-name-text {
+    align-items: center;
+    display: flex;
+}
+
+.logo-name-text h2 {
+    padding-left: var(--padding-one-em);
+}
+
+.logo-name-admin .ant-btn {
+    box-shadow: var(--box-shadow-card);
+    width: 100px;
+}
+
+.admin-orders-details-main .container {
+    padding-left: var(--padding-ten);
+}
+
+.admin-orders-details-main {
+    background: #fafafa;
+}
+
+.investor-details-admin {
+    background: var(--white);
+    box-shadow: var(--box-shadow-card);
+    margin-bottom: var(--padding-one-em);
+    margin-right: 2px !important;
+    margin-left: 0px !important;
+    padding: 1em 1em 1.4em 1em;
+}
+
+.investor-details-admin .break-down,
+.investor-details-admin .details-admin {
+    border-right: 1px solid #dedede;
+}
+
+.investor-details-admin .table-child-document {
+    /* justify-content: space-around; */
+    display: block !important;
+    height: 100%;
+    padding-left: var(--padding-one-em);
+    padding-top: 2em;
+    width: 100%;
+}
+
+.deliver-btn {
+    text-align: center;
+}
+
+.investor-details-admin .table-child-document .button-active,
+.investor-details-admin .table-child-document .button-active:hover,
+.investor-details-admin .table-child-document .button-active:active,
+.investor-details-admin .table-child-document .button-active:focus,
+.note-button,
+.note-button:focus,
+.note-button:hover,
+.note-button:active {
+    background: var(--primary);
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: var(--padding-one-em);
+    width: 200px;
+}
+
+
+.investor-details-admin .table-child-document .button-deactive,
+.investor-details-admin .table-child-document .button-deactive:hover,
+.investor-details-admin .table-child-document .button-deactive:active,
+.investor-details-admin .table-child-document .button-deactive:focus {
+    background: var(--primary);
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: var(--padding-one-em);
+    opacity: .6;
+    width: 200px;
+}
+
+.add-funds-btn {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: var(--padding-two-em);
+}
+
+.add-funds-btn .ant-btn,
+.add-funds-btn .ant-btn:hover,
+.add-funds-btn .ant-btn:active,
+.add-funds-btn .ant-btn:focus {
+    background: var(--primary);
+    color: var(--white);
+    font-weight: 500;
+    width: 150px;
+}
+
+.transactions h2,
+.documents-section h2 {
+    font-weight: 700;
+}
+
+.transaction-details-card {
+    background: var(--white);
+    box-shadow: var(--box-shadow-card);
+    margin-bottom: var(--padding-one-em);
+    margin-right: 2px !important;
+    padding: var(--padding-one-em);
+}
+
+.transaction-details-card .amount-label,
+.transaction-details-card .date-label {
+    font-weight: 500;
+}
+
+.transaction-details-card .amount-number,
+.transaction-details-card .date-number,
+.description-p {
+    /* font-family: PopinRegular; */
+}
+
+.transaction-details-card h4,
+.amount-section-p {
+    margin: 0px;
+}
+
+.amount-number {
+    color: #1582d4;
+}
+
+.description-p {
+    color: gray;
+}
+
+.date-section {
+    text-align: right;
+}
+
+.documents-section {
+    margin-top: var(--padding-two-em);
+    width: 30%;
+}
+
+.documents-card {
+    align-items: center;
+    background: var(--white);
+    box-shadow: var(--box-shadow-card);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-left: 2px;
+    margin-right: 2px !important;
+    padding: var(--padding-one-em);
+}
+
+.file-document,
+.documents-card a {
+    font-weight: 500;
+}
+
+.file-document .anticon {
+    padding-right: 10px;
+}
+
+.entity-modal .ant-picker{
+    width: 100%;
+    border: 1px solid var(--primary);
+    background: var(--white); 
+    height: 37px;
+}
+
+.entity-modal .amount-input .ant-input:placeholder-shown {
+    border: 1px solid var(--primary);
+    background: var(--white); 
+    height: 40px;
+}
+
+.entity-modal textarea.ant-input {
+    border: 1px solid var(--primary);
+}
+
+.note-popover {
+    width: 300px;
+}
+
+.date-section-div {
+    color: gray;
+    float: right;
+    /* font-size: .8em; */
+    /* font-family: PopinRegular; */
+    text-align: right;
+    width: 100%;
+}
+
+.popover-send {
+    text-align: right;
+    width: 100%;
+}
+.note-popover .popover-desc {
+    /* font-family: PopinRegular; */
+}
+
+.note-popover .ant-btn,
+.note-popover .ant-btn:hover,
+.note-popover .ant-btn:active,
+.note-popover .ant-btn:focus {
+    background: var(--primary);
+    color: var(--white);
+    font-weight: 500;
+}
+
+.note-popover .popover-desc {
+    /* font-family: PopinRegular; */
+    text-transform: capitalize;
+}
+
+.ant-popover-title {
+    font-weight: 500;
+}
+
+.no-transactions {
+    font-weight: 700;
+    margin-top: var(--padding-two-em);
+    text-align: center;
+    background: #fff;
+    padding: 1em;
+    box-shadow: var(--box-shadow-card);
+}
+.transactions .ant-switch {
+    margin: .6em 1em;
+}
+
+.transactions label {
+    font-family: NotoRegular;
+}
+.user-permissions {
+    background: var(--white);
+    box-shadow: var(--box-shadow-card);
+    margin-bottom: var(--padding-one-em);
+    margin-right: 2px !important;
+    margin-left: 0px !important;
+    padding: var(--padding-one-em);
+}
+.user-permissions .transactions {
+    width: 86%;
+    display: block;
+    margin: auto;
+}
+@media only screen and (max-width: 767px) {
+    .logo-name-admin,
+    .logo-name-text,
+    .table-child-document {
+        display: block;
+    }
+
+    .logo-name-text h2 {
+        padding-left: 0px;
+    }
+
+    .logo-name-admin .ant-btn,
+    .table-child-document .ant-btn {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .investor-details-admin .break-down,
+    .investor-details-admin .details-admin {
+        border-right: 0px !important;
+    }
+
+    .admin-orders-details-main {
+        height: auto;
+    }
+
+    
+}
+
+
+

@@ -1,0 +1,784 @@
+.profile-card .ant-input-affix-wrapper,
+.text-area,
+.tax-input {
+    background: var(--white); 
+}
+
+.profile-card .ant-input-affix-wrapper .ant-input-prefix{
+    display: none;
+}
+
+.profile-title-h {
+    /* margin-bottom: 2em; */
+}
+
+.profile-main .ant-breadcrumb-separator {
+    display: none;
+}
+
+.profile-add-contact {
+    display: flex;
+    padding-right: 0px !important;
+}
+
+.profile-img {
+    position: relative;
+    padding-top: var(--padding-two-em);
+    text-align: center;
+}
+
+.profile-img .profile-image {
+    border-radius: 100%;
+    width: 100px;
+}
+
+.profile-img .camera-image {
+    bottom: 20px;
+    cursor: pointer;
+    margin-left: 1em;
+    position: absolute;
+    width: 30px;
+}
+
+.profile-card .ant-upload.ant-upload-select {
+    width: 100%;
+}
+
+.profile-main {
+    overflow-x: hidden;
+}
+
+.primary-address-section {
+    margin-top: 1em;
+}
+
+.entity-tab .profile-section {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.profile-card .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 40px;
+}
+
+.save-btn-sec .primary-button,
+.save-btn-sec .primary-button:hover,
+.save-btn-sec .primary-button:active {
+    background: #1582D4 ;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.save-btn-sec {
+    text-align: right;
+    padding-bottom: var(--padding-two-em);
+    width: 100%;
+}
+.save-btn-sec-profile .primary-button,
+.save-btn-sec-profile .primary-button:hover,
+.save-btn-sec-profile .primary-button:active {
+    background: #1582D4;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.save-btn-sec-profile {
+    text-align: right;
+    padding-bottom: var(--padding-two-em);
+    width: 100%;
+}
+
+.license-image {
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+.country-code-input {
+    display: flex;
+    min-width: 100%;
+    width: 100%;
+}
+
+.number-col-sec {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+/* .country-code-input .number-section {
+    width: 21vw;
+} */
+
+.country-code-input .phone-number,
+.ant-checkbox-wrapper span {
+    font-family: NotoRegular;
+}
+
+.phone-number {
+    font-family: NotoRegular;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.phone-number::before {
+    content: " *";
+    color: red;
+}
+
+.country-code-input .ant-select {
+    margin-right: 10px;
+    width: 120px;
+    height: 32px !important;
+}
+
+.delete-icon {
+    position: absolute;
+    top: 2em;
+}
+
+.items-list-case-change-gender{
+    text-transform: capitalize;
+}
+
+.items-list-case-change-countries {
+    text-transform: uppercase;
+}
+
+.entity-main {
+    border: 1px solid var(--gray);
+    padding: var(--padding-ten);
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px rgb(47 128 237 / 80%);
+    margin: 2px;
+}
+
+
+.entity-id span {
+    cursor: pointer;
+    float: right;
+}
+
+.add-entity-button {
+    align-items: center;
+}
+
+.add-entity-button label {
+    font-family: NotoRegular;
+}
+
+.add-entity-button label span {
+    font-size: .9em;
+}
+
+#profile-main-section .add-entity-button .ant-btn,
+.invester-individula-main .add-entity-button .ant-btn  {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-weight: 500;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: NotoRegular;
+    color: var(--primary);
+}
+#profile-main-section .add-entity-button .ant-btn svg,
+.invester-individula-main .add-entity-button .ant-btn svg {
+    font-size: 24px;
+    color: var(--primary);
+}
+
+.entity-id, .entity-main div {
+    color: var(--welcome-text);
+    font-size: .9em;
+    font-family: NotoBold;
+    font-weight: 500;
+    line-height: 1.8;
+}
+
+.investor-name-joint {
+    color: var(--primary) !important;
+    font-size: 1em !important;
+    font-weight: 500;
+} 
+
+.email-entity-label {
+    line-break: anywhere;
+}
+
+
+.entity-section .ant-col {
+    padding-bottom: 2em;
+}
+
+.company-name {
+    color: var(--primary) !important;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.mailing-address {
+    cursor: pointer;
+}
+
+.country-select .ant-select {
+    /* border: 1px solid var(--primary); */
+    background: var(--white);
+    /* height: var(--fourty); */
+}
+
+.country-select .ant-select {
+    color: var(--gray);
+    font-family: 'NotoRegular';
+    text-align: left;
+     width: 100% !important;
+}
+
+.basic-tab-button,
+.basic-tab-button:hover,
+.basic-tab-button:active {
+    background: var(--primary) !important;
+    float: right;
+    margin-bottom: 1em;
+    width: 100px !important;
+}
+
+.profile-main .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: transparent !important;
+}
+
+.primary-address-section .ant-select {
+    width: 100% !important;
+}
+
+.document-label {
+    position: absolute;
+    top: 0;
+}
+
+.profile-email-text {
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.profile-main .page-main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-profile-sec-main .page-main-heading {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.profile-main .page-main-heading-entity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%; 
+    margin-left: 10%;
+    margin-top: 10px;
+    font-family: NotoRegular;
+}
+
+.pdf-icon-sec {
+  padding-top: 3em;
+}
+
+.pdf-icon-sec .anticon-file-pdf {
+    color: var(--primary);
+    font-size: 1.8em;
+    width: 60px;
+    border: 2px solid;
+    padding: 10px;
+}
+
+
+.profile-box {
+    background: rgba(47, 128, 237, 0.05);
+    border: 1.5px solid rgba(47, 128, 237, 0.5);
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 1em 2em; 
+    width: 98%;
+    display: block;
+     margin:  auto auto 1em auto;
+}
+
+.profile-unBox {
+    background: rgba(255, 0, 46, 0.05);
+    border: 1.5px solid rgba(241, 17, 9, 0.5);
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 1em 2em; 
+    width: 80%;
+    display: block;
+     margin:  auto auto 1em auto;
+}
+
+.profile-box .security-section, .profile-unBox .security-section {
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+}
+
+.profile-box .security-section, .profile-unBox .security-section {
+    justify-content: flex-start !important;
+}
+
+.profile-box .security-section div:first-child, .profile-unBox .security-section div:first-child {
+    /* font-family: PopinRegular; */
+    line-height: 1.9;
+    width: 40%;
+}
+
+.profile-box .parimary-address-label, .profile-unBox .parimary-address-label {
+    text-align: center;
+    text-decoration: underline;
+}
+.profile-box .security-section label, .profile-unBox .security-section label {
+    font-family: NotoRegular;
+    line-height: 1.9;
+    color: #868686;
+    /* width: 80%; */
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.profile-box .security-section div:last-child, .profile-unBox .security-section div:last-child {
+    font-family: NotoRegular;
+    line-height: 1.9;
+    width: 60%;
+}
+
+.parimary-address-label {
+    color: var(--primary);
+    font-family: NotoRegular;
+}
+
+.primary-details {
+    margin-top: var(--padding-one-em);
+    margin-bottom: var(--padding-one-em);
+}
+
+.profile-box .basic-sec  div, .profile-unBox .basic-sec  div  {
+    color: #868686;
+    font-family: NotoRegular;
+    text-align: center;
+}
+
+.profile-box .basic-sec, .profile-unBox .basic-sec {
+    margin-top: 1em;
+}
+
+.profile-box, .profile-unBox {
+    position: relative;
+}
+ .dummy {
+    opacity: 0;
+}
+.profile-box .investor-name, .profile-unBox .investor-name {
+    color: var(--primary) !important;
+    font-weight: 700 !important;
+    font-size: 1.3em;
+}
+
+.eidt-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: NotoRegular;
+    color: #868686;
+    width: 96%;
+}
+
+.label-info {
+    cursor: pointer;
+}
+.eidt-section img {
+    cursor: pointer;
+    width: 18px;
+}
+
+.profile-success {
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.profile-pic-img {
+    position: absolute;
+    top: -42px;
+    left: 47%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+.documents-row {
+    margin-top: 1em;
+}
+
+.joint-investor {
+    display: block;
+    margin: auto;
+    width: 98%;
+}
+
+.joint-investor .profile-section h1 {
+    font-family: NotoRegular;
+}
+
+#profile-main-section {
+    padding-bottom: 0px !important;
+}
+
+.id-select .ant-select {
+    background: var(--white); 
+}
+
+/****Edit Profile css***/
+.edit-profile-sec-main .profile-section,
+.edit-entity-section {
+    background: #FFFFFF;
+}
+ 
+.edit-entity-section .ant-form,
+.add-joint-investor .ant-form{
+    width: 80%;
+    display: block;
+    margin: 2em auto;
+    padding-top: 1em;
+}
+.edit-profile-sec-main .ant-input-affix-wrapper svg {
+    display: none;
+}
+
+.edit-entity-section {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.ant-input-affix-wrapper > input.ant-input,
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: transparent;
+}
+
+.edit-profile-sec-main .primary-label {
+    font-weight: 500;
+    font-family: NotoBold;
+}
+
+.edit-profile-sec-main  .city-select .ant-select,
+.edit-profile-sec-main .city-select .ant-btn {
+    background: #FFF;
+    border: 1px solid #bababa;
+    box-sizing: border-box;
+    border-radius: 2px;
+ 
+}
+
+.section-header,
+.responsive-label {
+    margin-bottom: 2em;
+}
+
+.section-header,
+.responsive-label,
+.edit-profile-sec-main .ant-checkbox-wrapper span {
+    font-family: NotoRegular;
+    font-weight: 600;
+}
+
+.edit-profile-sec-main .number-select {
+    display: flex;
+}
+
+.ant-select {
+    background: #FFF;
+    border: 1px solid #bababa;
+    box-sizing: border-box;
+}
+
+.edit-profile-pic {
+    text-align: center;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.edit-profile-pic .profile-pic {
+    margin-top: 1em;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+}
+
+.edit-profile-pic .camera-pic {
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    margin-left: -2em;
+    cursor: pointer;
+}
+
+.entity-investor-name {
+    color: var(--primary) !important;
+    font-size: 1em !important;
+}
+
+.profile-logout-main {
+    width: 300px !important;
+}
+
+.profile-logout-main p {
+    /* font-family: PopinRegular; */
+    color: #868686;
+}
+
+.profile-logout-main .span-success {
+    color: var(--primary);;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.documents-form-profile {
+    margin-top: 3em;
+}
+
+/***Legal form***/ 
+.legal-profile-section {
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+.legal-profile-section-form {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.kyc-col {
+    position: relative;
+}
+
+.kyc-sec {
+    box-shadow: 0px 3px 28px #B8B8B83D;
+    padding: 1em;
+    position: absolute;
+    top: 7em;
+    left: 0;
+    margin-right: 15px;
+}
+
+.kyc-sec h4 {
+    color: var(--primary);
+    font-family: NotoRegular;
+    text-align: center;
+}
+
+.kyc-sec .anticon {
+    font-size: 16px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color:  #F5222D;
+    transform: rotate(-180deg);
+}
+
+.kyc-sec p {
+    color: #565656;
+    font-family: NotoRegular;
+    text-align: center;
+    font-size: 12px !important;
+    margin-bottom: 0px !important;
+}
+
+/* .kyc-sec .primary-button {
+    width: 100px;
+    display: block;
+    margin: auto;
+} */
+/* .form-section .ant-radio-inner {
+    border-radius: 0px !important;
+} */
+#profile-main-section .ant-form-item-label > label,
+.add-joint-investor .ant-form-item-label > label,
+.edit-entity-section .ant-form-item-label > label {
+    min-width: 170px;
+}
+
+.street-two-label .ant-form-item-label > label {
+    padding-left: 10px;
+}
+@media only screen and (max-width: 767px) {
+    .add-joint-investor .ant-form, .edit-entity-section .ant-form {
+        width: 98% !important;
+    }
+
+    .profile-main .page-main-heading-entity {
+        width: 98% !important;
+        margin-left: 1% !important;
+    }
+
+    .country-code-input .number-section {
+        width: 62vw !important;
+    }
+
+    .documents-row {
+        display: block;
+    }
+
+    .edit-profile-sec-main .number-select {
+        display: block !important;
+    } 
+    
+    .profile-add-contact {
+        display: block;
+        width: 100%;
+    }
+
+    .profile-add-contact .ant-col {
+        padding: 0px !important;
+    }
+
+    .country-code-input .profile-number-section {
+        width: 51vw !important    
+    }
+
+    .joint-number-section {
+        width: 70vw !important;
+    }
+
+    .profile-pic-img {
+        left: 38%;
+    }
+
+    .edit-profile-sec-main .ant-col-offset-2 {
+        margin-left: 0px;
+        margin-bottom: 1em;
+        margin-top: 2em;
+    
+    }
+
+    .add-joint-investor .ant-form {
+        width: 100% !important;
+    }
+
+    .edit-entity-section .ant-form .ant-col {
+        width: 100%;
+    }
+    .investor-email {
+        max-width: 98%;
+        overflow: hidden;
+        white-space: normal;
+        text-overflow: ellipsis;
+    }
+}
+
+.profile-main .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 32px;
+    padding: 0px !important;
+}
+
+.legal-info {
+    cursor: pointer;
+    color: var(--primary);
+    font-family: NotoRegular;
+    padding: 1em;
+    text-decoration: underline;
+}
+
+.mailing-address-col {
+    margin-bottom: 2em;
+}
+
+/* .profile-number-section {
+    width: 22.5vw !important;
+
+} */
+
+.phone-number-label-col {
+    /* min-width: 26% !important; */
+}
+
+.phone-number-label-col .phone-number {
+    padding-right: 0px !important;
+    min-width: 160px;
+    padding-bottom: 10px;
+}
+
+.no-documents {
+    text-align: center;
+    color: var(--primary);
+    font-family: NotoRegular;
+    font-weight: 500;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1023px) {
+    .phone-number-label-col {
+        min-width: 100% !important;
+    }
+    .profile-add-contact,
+    .edit-profile-sec-main .number-select {
+        display: block !important;
+    }
+    .edit-profile-sec-main .number-select  {
+        padding-left: 0px !important;
+    }
+    .ant-form-item {
+        display: block !important;
+    }
+    .mailing-address-col,
+    .section-header {
+        margin-bottom: 0px !important;
+    }
+    .documents-row .ant-table-wrapper {
+        width: 100% !important;
+    }
+    .number-inpt {
+        padding-right: 0px !important;
+    }
+    .logo-content {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .profile-number-section,
+    .country-code-input .number-section {
+        width: 31.5vw !important;
+    }
+    #profile-main-section .save-btn-sec {
+        width: 91% !important;
+    }
+    .email-label {
+        max-width: 96%;
+        overflow: hidden;
+        white-space: normal;
+        line-break: anywhere;
+        min-width: 95%;
+        text-overflow: ellipsis;
+    }
+    .login-register-title-h {
+        width: 80% !important;
+        top: 0px !important;
+    }
+    .ant-drawer-left, .ant-drawer-right {
+        top: 40px !important;
+    }
+    .edit-profile-sec-main .page-main-heading {
+        width: 84% !important;
+    }
+    .container {
+        margin-top: 60px !important;
+    }
+}

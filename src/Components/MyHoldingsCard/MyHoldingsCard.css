@@ -1,0 +1,213 @@
+
+.ant-dropdown-menu-item:hover,
+.ant-dropdown-menu-submenu-title:hover  {
+    background: transparent !important;
+}
+
+.ant-timeline.ant-timeline-alternate .ant-timeline-item-right .ant-timeline-item-content,
+.ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-content,
+.ant-timeline.ant-timeline-label .ant-timeline-item-right .ant-timeline-item-content {
+    max-width: 99%;
+    overflow: hidden;
+    text-align: left !important;
+    white-space: normal;
+}
+
+.my-holdings .ant-card-cover {
+    padding: 24px 24px 0px 24px;
+}
+
+.my-holdings .ant-card-body {
+    background:#d9d9d9;
+}
+
+.my-holdings .ant-card-bordered {
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+}
+
+.my-holdings .ant-card-cover img {
+    /* border: 1px solid #dedede; */
+    cursor: pointer;
+    object-fit: contain;
+}
+
+.my-holdings .holding-card-content,.holding-card-content label {
+    cursor: pointer;
+}
+
+.my-holdings .ant-timeline-item {
+    padding-bottom: 14px;
+}
+
+.holding-card-content .card-left-content label,.status-icon-items label, .status-list label {
+    color: #090909;
+    font-family: NotoRegular;
+    opacity: 1;
+    display: block;
+    padding-top: 10px;
+}
+
+.holding-card-content .card-right-content label {
+    color: #565656;
+    opacity: 1;
+    display: block;
+    font-family: NotoRegular;
+    padding-top: 10px;
+}
+
+.holding-card-content .card-right-content label .card-right-content-highlight {
+    color: #1582d4 !important;
+    font-weight: bolder !important;
+    display: block;
+    padding-top: 1em;
+}
+
+.price-highlight-label {
+    font-size: 16px !important;
+}
+
+.card-right-content-highlight {
+    color: #1582d4 !important;
+    font-weight: bolder !important;
+    display: block;
+    padding-top: 1em;
+}
+
+.holding-card-content label:first-child {
+    padding-top: 0em;
+}
+
+.holding-card-content, .status-icon-items {
+    display: flex;
+    justify-content: space-between;
+    background: #EAEAEA 0% 0% no-repeat padding-box;
+}
+
+.my-holdings .card-right-content {
+    text-align: right;
+}
+
+.my-holdings .status-list-lineitems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-holdings .status-list .ant-timeline-item-content {
+    text-align: left !important;
+}
+
+.my-holdings .ant-timeline-item-tail {
+    top: 19px;
+}
+
+.status-icon-items .ant-timeline-item-last .ant-timeline-item-tail {
+    display: none !important;
+}
+
+.my-holdings .ant-timeline-item-head {
+    top: 5px;
+}
+
+.status-bar .ant-timeline.ant-timeline-alternate .ant-timeline-item-right .ant-timeline-item-content,
+.status-bar .ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-content,
+.status-bar .ant-timeline.ant-timeline-label .ant-timeline-item-right .ant-timeline-item-content {
+    text-align: left !important;
+}
+
+.status-list label {
+    padding-top: 0em;
+}
+
+.status-icon-items {
+    /* border-top: 1px solid var(--inpt-border); */
+    /* margin-top: 1.5em; */
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+
+
+/****Time line css***/ 
+
+.ant-timeline-item-tail {
+    position: absolute;
+    top: 18px;
+    left: 4px;
+    height: calc(100% - 18px);
+    border-left: 2px solid green;
+}
+
+.ant-timeline {
+    min-width: auto;
+}
+.status-icon-items .ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-tail {
+    left: calc(100% - 10px) !important;
+}
+.ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-tail,
+ .ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-head,
+ .ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-head-custom {
+    left: calc(100% - 10px) !important;
+ }
+ 
+.status-bar .ant-collapse > .ant-collapse-item {
+    border: 0px !important;
+}
+
+.status-bar .ant-collapse,
+.status-bar .ant-collapse-content {
+    background: #EAEAEA 0% 0% no-repeat padding-box !important;
+    border: 0px !important;
+    padding: 20px;
+}
+
+.status-bar .ant-timeline-item-content {
+    color: #565656;
+    font-weight: 500;
+    font-size: 11px !important; 
+    opacity: 1;
+}
+
+.detail-section {
+    margin-left: 3px;
+}
+.status-bar .ant-collapse-content > .ant-collapse-content-box {
+    padding: 0px !important;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.ant-timeline-item-last > .ant-timeline-item-content {
+    min-height: 0px !important;
+}
+
+.status-icon-items .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+    font-size: 18px;
+    color: #747474;
+    transform: rotate(
+        90deg);
+}
+
+.status-icon-items .ant-collapse-item-active .ant-collapse-header .ant-collapse-arrow { 
+    transform: rotate(
+        -180deg) !important;
+}
+.status-icon-items .ant-timeline-item-head{
+    background: transparent !important;
+}
+
+.status-icon-items .ant-timeline-item {
+    padding-top: 12px !important;
+}
+
+
+
+

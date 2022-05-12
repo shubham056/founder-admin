@@ -1,0 +1,623 @@
+.login-register {
+    background: #fff;
+    background-size: 100%; 
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.login-register .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--primary) !important;
+}
+
+.login-register .login-btn {
+    font-weight: 500 !important;
+}
+
+.login-register .ant-form-item-label {
+    /* display: flex;
+    align-items: center; */
+}
+
+.login-register .ant-tabs-tab {
+    padding-right: 0px !important;
+}
+
+.login-register .ant-tabs-tab-btn {
+    color: var(--black) !important;
+}
+
+.login-register .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    font-size: initial !important;
+}
+
+.login-register .ant-tabs-top > .ant-tabs-nav::before {
+    border-bottom: 0px !important;
+}
+
+.login-register .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list {
+    justify-content: center !important;
+}
+
+.login-register .ant-tabs {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 2em !important;
+}
+
+/* .login-register .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    font-weight: 500 !important;
+} */
+
+.login-register .ant-tabs-tab-active {
+    box-shadow: 0px 5px 8px #daeeffc4;
+    opacity: 1;
+    padding: 4px 20px !important;
+    margin-bottom: 3px;
+    margin-top: 2px;
+}
+
+.logo-mobile {
+    background: #fff !important;
+    border-bottom: 1px solid #dedede;
+    padding-bottom: 1em;
+}
+
+.login-sec-main {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: var(--box-shadow-card);
+    border-radius: 10px;
+    /* padding: 2em 3em !important; */
+    margin-top: 17px;
+    margin-bottom: 17px;
+    opacity: 1;
+    height: 100%;
+}
+
+.login-register .ant-form {
+    margin-top: 17px;
+}
+
+.login-register .ant-tabs-tab-btn {
+    font-size: 16px !important;
+    font-family: NotoRegular;
+    font-weight: 600;
+}
+
+.login-sec-main-col .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list,
+.login-sec-main-col .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list {
+    
+}
+.login-sec-main-col {
+    /* padding: 2em !important; */
+    position: relative;
+}
+
+.login-sec-main-col .ant-form-item-label > label,
+.phone-number-login {
+    justify-content: end !important;
+    width: 165px;
+}
+
+.login-sec-main-col .label-align .ant-form-item-label > label {
+    width: 90px !important;
+}
+
+.login-sec-main .ant-form-item {
+    margin-bottom: 16px !important;
+}
+
+.login-signup-card-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+   
+}
+
+.login-sec-main-col-reset .ant-form-item-label > label {
+    width: auto !important;
+}
+
+.login-sec-main-col-reset .ant-form-item {
+    padding-left: 1em;
+}
+
+.form-section-only {
+    min-height: 288px;
+}
+
+.password-success-only {
+    min-height: 320px;
+}
+
+.login-signup-card-text h2 {
+    color: var(--white);
+    line-height: 1.2;
+    font-family: NotoRegular;
+    font-weight: 500;
+}
+
+.reset-password-success-text {
+    color: #565656;
+    font-size: 12px;
+    font-family: NotoRegular;
+    font-weight: 500;
+    opacity: 1;
+    text-align: center;
+}
+
+.reset-password-success-text span {
+    color: #1582D4;
+}
+
+.login-signup-card-text h6 {
+    color: #E9E9E9;
+    font-family: NotoRegular;
+}
+
+.login-sec-main-col-img {
+    background: transparent linear-gradient(42deg, #045BA8 0%, #DAEEFF 100%) 0% 0% no-repeat padding-box;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    opacity: 0.78;
+}
+
+.login-register-section {
+    margin-bottom: 2em;
+}
+.btn-section {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.login-register-main {
+    min-height: 480px;
+    max-height: 750px;
+    width: 60%;
+    display: block;
+    margin: 4em auto;
+
+}
+
+.login-register-main .login-btn {
+    background: #1582D4 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    width: 100px;
+    font-family: NotoRegular;
+    font-weight: 500;
+} 
+
+.login-register-main .signup-btn {
+    background: #1582D4 0% 0% no-repeat padding-box;
+    /* font-family: WorkSans; */
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+}
+
+.signup-btn {
+    margin-top: 1em;
+}
+
+.signup-back-btn,
+.signup-back-btn:hover {
+    background: var(--white);
+    border: 1px solid var(--primary);
+    color: var(--primary) !important;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+}
+
+.login-register-main .ant-input {
+    background: #fafafa;
+}
+
+.ant-input-affix-wrapper:hover,
+.ant-input-affix-wrapper-focused {
+    border-color: #B8B8B8 !important;
+    box-shadow: none !important;
+}
+
+.ant-form-item-label > label,
+.phone-number-login  {
+    font-weight: 500;
+    font-family: NotoRegular;
+}
+
+.login-register-main .ant-form-item-label > label,
+.phone-number-login {
+    color: #565656;
+    font-family: NotoRegular;
+    font-weight: 500;
+}
+
+.login-register a {
+    color: #045BA8;
+    font-family: NotoRegular;
+    padding-left: 5px;
+    font-weight: 600;
+}
+
+.login-register-main .privacy-label a {
+    color: #2F80ED !important;
+    font-weight: 500;
+}
+
+.register-select .ant-select {
+    border: 0px !important;
+    border-bottom: 1px solid #dedede !important;
+    border-radius: 0px !important;
+    margin-top: -6px !important;
+}
+
+.login-register-main .ant-input-affix-wrapper {
+   border: 2px solid #B8B8B8;
+   /* padding: 10px 12px; */
+   height: auto;
+}
+
+.login-register-main .ant-input-affix-wrapper svg {
+    display: none;
+}
+
+.login-register-main .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    padding-left: 0px   ;
+}
+
+.label-align {
+    /* display: flex;
+    align-items: center; */
+}
+
+.reset-password-h {
+    font-family: NotoRegular;
+    font-weight: 600;
+    color: #1582D4;
+    text-align: center;
+    margin: 2em auto;
+}
+
+.reset-password-form .ant-form-item {
+    padding-right: 16px;
+}
+
+.login-register-title {
+    color: var(--primary) !important;
+    font-size: 1.4em !important;
+    text-align: center;
+    position: relative;
+}
+
+
+#login-register {
+    /* overflow-y: hidden; */
+}
+
+#login-register .login-register-title {
+    margin-bottom: 1em;
+}
+
+ .line {
+    border-bottom: 1px solid red;
+    border-top: 1px solid darkcyan;
+}
+.or-section {
+    /* font-family: WorkSans; */
+    position: relative;
+}
+
+.or-section:before {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: var(--inpt-border);
+    right: 25px;
+    top: 50%;
+    position: absolute;
+}
+
+.or-section:after {
+    content: "";
+    display: block;
+    width: 160px;
+    height: 1px;
+    background: var(--inpt-border);
+    left: 25px;
+    top: 50%;
+    position: absolute;
+} 
+
+.login-pssword {
+    margin-bottom: var(--padding-one-em);
+}
+
+.single-sign-on {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.have-account {
+    color: var(--welcome-text);
+    /* font-family: WorkSans; */
+    margin-top: 12px;
+    text-align: center;
+}
+
+.have-account span {
+    color: #2F80ED;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.forgot-text {
+    margin-top: 1em;
+}
+
+.welcome-text {
+    color: #1582D4;
+    /* font-family: WorkSans; */
+    font-weight: 500;
+    text-align: center;
+    margin-left: 1.6em;
+}
+
+.welcome-text span {
+    color: #1582D4;
+    cursor: pointer;
+}
+
+.logo-mobile img {
+    margin-top: var(--padding-one-em);
+    margin-left: var(--padding-three-em);
+}
+
+.register-select .ant-select {
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.number-section svg {
+    transform: rotate(120deg);
+}
+
+#signup-register .phone-number {
+    /* font-family: WorkSans; */
+    line-height: 1.9;
+}
+
+#signup-register .login-sec-main {
+    width: 100%;
+    display: block;
+    margin: 2em auto !important;
+}
+
+#signup-register .phone-number::after {
+    content: " *";
+    color: #ff4d4f;
+}
+
+#signup-register .phone-number::before {
+    content: none !important;
+}
+
+ #signup-register .city-select {
+     padding: 0px !important;
+ }
+
+ .privacy-label {
+     /* font-family: WorkSans; */
+ }
+
+ .terms-link {
+     color: #2F80ED;
+     /* font-family: WorkSans !important; */
+     text-decoration: none;
+ }
+
+ .create-label {
+     color: var(--welcome-text);
+     font-weight: 500;
+     line-height: 1.2;
+ }
+
+ .forgot-hint {
+    color: var(--welcome-text);
+    /* font-family: WorkSans; */
+    line-height: 1.2;
+ }
+
+ .welcome-text-forgot {
+    color: var(--welcome-text);
+    /* font-family: WorkSans; */
+    line-height: 1.2;
+ }
+
+ .forgot-btn,
+ .forgot-btn:hover,
+ .forgot-btn:active,
+ .forgot-btn:focus {
+    background: var(--primary) !important;
+ }
+
+ .welcome-text-forgot span {
+     color: var(--primary);
+     font-weight: 500;
+ }
+
+ .forgot-hint {
+     /* font-family: WorkSans; */
+     margin-top: 3em;
+     text-align: center;
+ }
+
+ .first-name-sec {
+     padding-left: 15px !important;
+ }
+
+ .unalign-input {
+     margin-top: 1em;
+ }
+
+.login-register .city-select .ant-form-item {
+    margin-bottom: 0px !important;
+}
+
+.mobile-only-login {
+    display: none;
+}
+
+.password-requir {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.password-requir h4 {
+    font-family: NotoBold;
+}
+
+.password-requir p {
+    font-family: NotoRegular;
+    margin-bottom: 4px;
+}
+.web-only {
+    width: 100%;
+}
+ /****Responsive css for login pages***/
+@media screen and (max-width: 767px) {
+    .phone-number-login {
+        padding-bottom: 10px;
+    }
+    .login-register .city-select {
+        justify-content: flex-start !important;
+    }
+    .mobile-only-login {
+        display: block;
+        width: 100%;
+    }
+    .number-inpt {
+        width: 100%;
+    }
+    .web-only {
+        display: none;
+    }
+    .country-select-phone {
+        display: flex;
+    }
+    .country-select-phone .ant-form-item {
+        width: 105% !important;
+    }
+    .login-sec-main-col .ant-form-item-label > label {
+        justify-content: start !important;
+    }
+    .login-register .ant-select {
+        margin-left: 0px !important;
+    }
+    .login-register .city-select .ant-form-item {
+        margin-bottom: 1.5em !important;
+    }
+    .login-sec-main-col-img {
+        min-height: 470px;
+        max-height: 650px;
+        padding: 0px !important;
+        min-width: 100%;
+    }
+    #signup-register .login-register-main {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .login-register {
+        background-size: 100% !important;
+        margin-bottom: var(--padding-one-em);
+    }
+    .first-name-sec {
+        padding-left: 0px !important;
+    }
+    #login-register {
+        /* overflow-y: hidden; */
+    }
+    .login-register-main {
+        width: 98% ;
+    }
+    .login-sec-main {
+        padding: 10px 0px !important;
+        width: 98%;
+        margin-left: 1% !important;
+    }
+    
+    .login-register-main .ant-col-offset-12 {
+        margin-left: 0px !important;
+    }
+
+    .login-register-main .fname-row {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .login-register-main .signup-btn {
+        margin-bottom: 1em;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1330px) {
+    .login-register-main {
+        width: 80% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .login-register-main {
+        width: 90% !important;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 886px) {
+    .login-sec-main-col .ant-form-item-label > label,
+     .phone-number-login {
+         justify-content: flex-start !important;
+     }
+     .login-sec-main-col .label-align .ant-form-item-label > label {
+         width: 125px !important;
+     }
+}
+
+.login-register .city-select {
+    justify-content: center;
+}
+
+
+.phone-number-login::before {
+    content: " *";
+    color: #ff4d4f;
+    margin-right: 5px;
+}
+
+.phone-number-login {
+    padding-top: 5px;
+}
+ 
+.login-register .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+    color: #565656;
+    font-family: NotoRegular;
+    line-height: 27px;
+    padding-left: 10px;
+}
+
+.login-register .ant-select {
+    background: transparent !important;
+    border: 2px solid #B8B8B8 !important;
+    box-sizing: border-box !important;
+    border-radius: 2px !important;
+    height: 34px !important;
+    margin-right: 20px;
+}
+
+@media only screen and (min-width: 1000px)and (max-width: 1200px) {
+    .login-sec-main-col .ant-form-item-label > label,
+    .phone-number-login {
+        width: auto !important;
+    }
+}

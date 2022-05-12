@@ -1,0 +1,100 @@
+.opportunity-success-main .hloding-invester {
+    background: #fff !important;
+    box-shadow: none !important;
+    width: auto;
+    display: block;
+    margin: initial;
+}
+
+.opportunity-success-main .logo-text-sec {
+    width: 400px;
+    margin: inherit !important;
+}
+
+.opportunity-success-main .logo-text-sec img {
+    width: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.opportunity-success-main .thankyou-h {
+    margin-top: 2em;
+    color: #092D47;
+    font-family: NotoBold;
+}
+
+.opportunity-success-main .thankyou-dec {
+    margin-bottom: 2em;
+    color: #747474;
+    font-family: NotoRegular;
+}
+
+.opportunity-success-main .thankyou-p {
+    margin-top: 2em;
+    color: #747474;
+    font-family: NotoRegular;
+}
+
+.opportunity-success-main .thankyou-p span {
+    color: var(--primary); 
+    cursor: pointer;
+    font-family: NotoRegular;
+}
+
+.opportunity-success-main .company-sec-div {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.opportunity-success-main .card-text-sec {
+    width: 60%;
+}
+
+.opportunity-success-main .logo-name .security-section {
+    width: 100%;
+    margin-left: 0px !important;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+.opportunity-success-main .card-text-sec {
+    border-left: 3px solid #9a9a9a;
+    padding-left: 1.5em;
+}
+
+.opportunity-success-main .security-section label {
+    font-family: NotoRegular;
+    color: #090909;
+}
+
+.opportunity-success-main .logo-name {
+    box-shadow:  0px 3px 25px #DAEEFFCF !important;
+    line-height: 1.8;
+}
+
+.opportunity-success-main .investor-opportunity-title-h {
+    margin-bottom: 1em !important;
+}
+
+.opportunity-success-main .total-value label:first-child {
+    color: #1582D4;
+    font-size: 16px !important;
+}
+
+.opportunity-success-main .total-value label:last-child {
+    color: #1582D4;
+    font-size: 16px !important;
+    font-family: NotoBold;
+}
+
+.opportunity-success-main .security-section label:last-child {
+    padding-right: 1em;
+}
+
+.opportunity-success-main .logo-name {
+    border-radius: 0px !important;
+}

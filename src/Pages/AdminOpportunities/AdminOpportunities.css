@@ -1,0 +1,54 @@
+
+a,
+a:hover {
+    color: #1890ff;
+    /* font-family: PopinRegular; */
+    text-decoration: underline;
+}
+
+.admin-opportunity-main {
+    overflow-x: hidden;
+}
+
+.search-add-opportunity {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: var(--padding-one-em);
+}
+
+.admin-opportunity-main .ant-btn-primary,
+.admin-opportunity-main .ant-btn-primary:hover, 
+.admin-opportunity-main .ant-btn-primary:active,
+.admin-opportunity-main .ant-btn-primary:focus {
+    height: 32px;
+}
+
+.add-opportunity-btn {
+    background-color: var(--primary);
+    color: var(--white);
+    /* font-family: PopinRegular; */
+}
+
+.edit-button {
+    cursor: pointer;
+}
+
+.search-add-opportunity .ant-input-group-wrapper {
+    padding-right: var(--padding-one-em);
+    width: 300px;
+}
+
+.admin-opportunity-main .ant-table-tbody > tr > td:first-child {
+    /* display: flex; */
+    align-items: center;
+}
+
+.admin-opportunity-main .ant-table-tbody > tr > td:first-child span {
+    padding-left: 10px;
+}
+
+.logo-company-name-table {
+    display: flex;
+    align-items: center;
+}

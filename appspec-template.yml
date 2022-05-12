@@ -1,0 +1,10 @@
+version: 0.2
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:${AWS_DEFAULT_REGION}:${AWS_ACCOUNT_ID}:task-definition/${AWSECS_FAMILY}"
+        LoadBalancerInfo:
+          ContainerName: "${AWSECS_CONTAINER}"
+          ContainerPort: 80
+

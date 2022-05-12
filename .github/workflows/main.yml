@@ -1,0 +1,35 @@
+name: Production Portal Build
+on:
+  pull_request:
+  push:
+    branches:
+      - main 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.15.0]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Production Portal Build
+      run: |
+        mkdir build && sudo apt-get update && sudo apt-get -qq install zip &&  zip -r build/v1portaltopshelf.zip .
+    - name: Deploy to S3
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl private --delete
+
+      env:
+        AWS_S3_BUCKET: ${{ secrets.PROD_AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.PROD_AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.PROD_AWS_SECRET_KEY }}
+        DEST_DIR: "portal/v1"
+        AWS_REGION: ${{ secrets.PROD_AWS_REGION }}
+        SOURCE_DIR: "build"

@@ -1,0 +1,179 @@
+
+ h3.holding-headings {
+    color: var(--welcome-text);
+    font-weight: 600;
+    padding-left: 5px;
+} 
+
+div.no-holdings-text {
+    background: var(--white);
+    box-shadow: var(--box-shadow-card);
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin: 2em auto;
+    padding: 2em;
+
+}
+
+.no-holdings-text p {
+    margin: 0px;
+}
+
+.go-to-opportunity {
+    align-items: center;
+    background: var(--white);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    height: 360px;
+}
+
+.go-to-opportunity div{
+    text-align: center;
+    width: 100%;
+}
+
+.go-to-opportunity-text {
+    color: #2F80ED;
+    cursor: pointer;
+    font-family: NotoRegular;
+    font-size: 1em !important;
+}
+
+
+.holdings-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.holdings-heading span {
+    color: var(--primary);
+}
+
+.company-logo-img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-top: 2em;
+    object-fit: cover;
+}
+.container-invester .ant-card-body {
+    padding: 0px !important;
+    position: relative;
+}
+
+.container-invester .ant-card-bordered {
+    border: 0px !important;
+}
+
+.progress-section .ant-progress-inner,
+.progress-section .ant-progress-bg {
+    border-radius: 0px !important;
+}
+
+.progress-section .ant-progress-inner {
+    width: 99% !important;
+    margin-left: 0.5% !important;
+}
+
+.progress-section  .ant-progress-bg {
+    background: #42BD5F;
+}
+
+.progress-section {
+    position: absolute;
+    top: -11px;
+    display: block;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.holdings-card-col {
+    margin-bottom: 2em;
+}
+
+.progress-label {
+    color: #42BD5F;
+    font-weight: 500;
+    font-family: NotoRegular;
+    padding-left: 1em;
+    text-transform: uppercase;
+}
+
+.progress-section .ant-progress-show-info .ant-progress-outer {
+    padding-right: 0px !important;
+}
+
+.progress-section .ant-progress-text {
+    display: none !important;
+}
+
+.img-section {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 25px #B8B8B83B;
+    opacity: 1;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holding-card-content {
+    height: 60%;
+    padding: 24px 40px;
+}
+
+.holding-card-content .card-right-content {
+    text-align: right;
+}
+
+.past-holdings {
+    letter-spacing: 0px;
+    color: #092D47;
+    opacity: 1;
+    margin-top: 2em;
+    text-align: left;
+}
+
+.no-holdings {
+    letter-spacing: 0px;
+    color: #747474;
+    opacity: 1;
+    text-align: left;
+    font-family: NotoRegular;
+}
+
+.holding-details-section-card-h {
+    color: #092D47;
+    font-size: 27px;
+    font-family: 'NotoBold';
+    margin: 2em auto;
+}
+
+.investor-row {
+    margin-top: 4em;
+}
+
+.scrollable-div {
+    max-height: 100vh;
+}
+
+.scrollable-div .investor-row {
+    max-height: 70vh;
+    overflow-y: scroll;
+    margin-top: 1em !important;
+    padding-top: 3em !important;
+    margin-left: 1em !important;
+}
+
+/***responsive for only mobiles***/
+@media screen and (max-width: 767px) {
+    .my-hold-investor .logo-name-img img {
+        width: 80% !important;
+    }
+}

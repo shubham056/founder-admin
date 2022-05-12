@@ -1,0 +1,63 @@
+/* .company-list-main .company-list-table {
+    margin-top: 120px;
+}
+
+.company-list-main .table-top-buttons{
+    margin-top: 70px;
+    float: right;
+} */
+
+a,
+a:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
+.company-list-main {
+    overflow-x: hidden;
+}
+
+.add-company-button {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: var(--padding-one-em);
+}
+
+.company-list-main .ant-btn-primary,
+.company-list-main .ant-btn-primary:hover, 
+.company-list-main .ant-btn-primary:active,
+.company-list-main .ant-btn-primary:focus {
+    height: 32px;
+}
+
+.add-company-btn {
+    background-color: var(--primary);
+    color: var(--white);
+    /* font-family: PopinRegular; */
+}
+
+.edit-button {
+    cursor: pointer;
+}
+
+
+.company-list-table .ant-image-img {
+    width: 100px;
+}
+
+.table-top-buttons {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.company-list-table .ant-table-tbody > tr > td:first-child {
+    /* display: flex; */
+    /* align-items: center; */
+}
+
+.company-list-table .ant-table-tbody > tr > td:first-child span {
+    cursor: pointer;
+    padding-left: 10px;
+}

@@ -1,0 +1,99 @@
+.container-permissions {
+    width: 80%;
+    display: block;
+    margin: 70px auto 30px auto;
+    padding-bottom: 20px;
+    min-height: 90vh;
+}
+
+.container-permissions .primary-button {
+    display: block;
+    margin: 1em auto 1em auto;
+    font-family: 'NOTOREGULAR';
+}
+
+.container-permissions .ant-checkbox-wrapper {
+    margin: 1em;
+}
+
+.container-permissions .ant-checkbox + span {
+    padding-left: 1em;
+}
+
+.document-permission-div {
+    box-shadow:  var( --box-shadow-card);
+    background: var(--white);
+    margin: 3px;
+    padding: 1em;
+}
+
+.document-permission-row .accredited-col {
+    margin-top: 120px;
+}
+
+.accredited-div {
+    padding: 1.8em !important;
+}
+
+.document-permissions-main-h .investor-opportunity-title-h {
+    text-align: left;
+    margin-bottom: 0em !important;
+    position: fixed;
+    z-index: 1;
+    width: 79.5%;
+    margin-left: .2%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 25px !important;
+    background-color: #fff;
+    top: 70px;
+    padding-right: 10px;
+    text-transform: inherit;
+}
+
+.document-permissions-main-h .investor-opportunity-title-h span {
+    text-transform: capitalize;
+    padding-right: 10px;
+}
+
+.document-permissions-main-h .login-register-title-h::after {
+    bottom: 2px !important;
+}
+
+.shares-form p {
+    font-family: NotoRegular;
+}
+
+.required {
+    color: red;
+    padding-right: 5px;
+}
+
+.documents-main-sec {
+    margin-top: 2em;
+}
+
+@media only screen and (max-width: 767px) {
+    .container-permissions {
+        width: 90% !important;
+    }
+    .accreadited-sec {
+        margin-top: 1em;
+    }
+    .document-permissions-main-h .investor-opportunity-title-h {
+        top: 38px !important;
+        font-size: 13px !important;
+        font-weight: bold;
+    }
+    .document-permission-row .accredited-col {
+        margin-top: 76px !important;
+    }
+    .container-permissions .primary-button {
+        width: 100% !important;
+        font-size: 13px !important;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+}

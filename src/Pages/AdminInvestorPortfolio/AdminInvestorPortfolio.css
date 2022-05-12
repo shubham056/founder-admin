@@ -1,0 +1,110 @@
+.admin-details {
+    margin-left: 15%;
+    margin-bottom: var(--padding-one-em);
+    width: 70%;
+}
+
+.admin-details .ant-col {
+    padding-left: var(--padding-one-em);
+    padding-right: var(--padding-one-em);
+    background: var(--white);
+    box-shadow: var(--box-shadow-card);
+}
+
+.admin-details .ant-input-affix-wrapper,
+.city-select .ant-btn,
+.admin-details .ant-picker,
+.city-select .ant-select {
+    /* border: 1px solid var(--primary); */
+    background: var(--white); 
+}
+
+.city-select .ant-btn,
+.city-select .ant-select {
+    color: var(--gray);
+    font-family: 'NotoRegular';
+    text-align: left;
+    width: 100%;
+}
+
+.admin-details .ant-input-affix-wrapper .ant-input-prefix svg {
+    display: none;
+}
+
+.admin-details .ant-space-item,
+.admin-details .ant-space-vertical,
+.admin-details .ant-picker {
+    width: 100%;
+}
+
+.admin-investor-portfolio .search-filter {
+    margin-bottom: var(--padding-one-em);
+    text-align: right;
+}
+
+.admin-investor-portfolio .ant-select-disabled.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background: transparent !important;
+}
+ 
+.heading-note {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading-note .ant-btn,
+.heading-note .ant-btn:hover,
+.heading-note .ant-btn:active,
+.heading-note .ant-btn:focus {
+    background: var(--primary);
+    color: var(--white);
+    font-weight: 500;
+    width: 150px;
+    line-height: 0;
+}
+
+.note-popover textarea.ant-input {
+   border: 1px solid var(--primary)
+}
+
+
+.admin-investor-details {
+    /* border: 1px solid var(--primary); */
+    padding: var(--padding-one-em) var(--padding-one-em) var(--padding-two-em);
+}
+
+.verify-label {
+    padding-right: 10px;
+    font-family: NotoRegular;
+}
+.heading-edit-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heading-edit-icon img {
+    cursor: pointer;
+    width: 20px;
+}
+
+.break-down .holding-detail-company-name {
+    padding-left: 0px !important;
+    text-align: left;
+    margin: 0px !important;
+}
+
+.search-add-opportunity .ant-input-affix-wrapper {
+    background: var(--white) !important;
+}
+
+.search-add-opportunity .ant-input-search-button {
+    /* height: 40px !important; */
+}
+
+.search-filter-container .ant-input-affix-wrapper {
+    background: var(--white) !important;
+}
+
+
+

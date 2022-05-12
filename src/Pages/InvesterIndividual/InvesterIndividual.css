@@ -1,0 +1,586 @@
+.container-payment {
+    display: block;
+    margin: 140px auto auto auto;
+    width: 90%;
+    min-height: 90vh;
+}
+
+.invester-individula-main {
+    background: #fff;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.invester-individula-main .document-type-card {
+    /* background: var(--white);
+    box-shadow:  var(--secondary-box-shadow);
+    border-radius: var(--card-border-radius); */
+}
+
+.document-type-card .card-main {
+    margin-bottom: var(--padding-two-em);
+   /* padding: var(--padding-two-em) var(--padding-three-em) var(--padding-two-em) 0;*/
+}
+
+.document-type-card h3 {
+    color: var(--primary);
+    /* font-family: PopinRegular; */
+}
+
+.document-type-card .label-main {
+    color: var(--gray);
+    /* font-family: PopinRegular; */
+}
+
+.document-type-card .radio-sections {
+    margin-top: var(--padding-one-em);
+    width: 101.5%;
+
+}
+
+.document-type-card .primary-button {
+    background: var(--primary);
+    height: 30px;
+    /* font-family: 'PopinRegular'; */
+    font-weight: 500;
+    /* font-size: 1em; */
+    width: auto;
+}
+
+.radio-sections label {
+    color: var(--primary);
+    /* font-family: PopinRegular; */
+}
+
+.document-type-card .ant-input-affix-wrapper,
+.modal-form-sec .ant-input-affix-wrapper {
+    /* border: 1px solid var(--primary); */
+    background: var(--white); 
+    /* height: var(--fourty); */
+}
+
+.document-type-card .ant-input-affix-wrapper .ant-input-prefix svg,
+.modal-form-sec .ant-input-affix-wrapper .ant-input-prefix svg {
+    display: none;
+}
+
+.modal-form-sec .ant-modal-footer {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 99%;
+}
+
+.modal-form-sec .ant-modal-footer .ant-btn {
+    /* font-family: PopinRegular; */
+    height: 38px;
+    width: 100px;
+}
+
+.form-section {
+    margin-top: var(--padding-two-em);
+}
+
+.form-section .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    position: absolute;
+    right: -1em;
+}
+
+.invester-individula-main .ant-select {
+    border: 1px solid var(--primary);
+    height: 40px;
+}
+
+.invester-individula-main .ant-select-single .ant-select-selector .ant-select-selection-item,
+.invester-individula-main .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+    color: var(--gray);
+    line-height: 36px;
+    font-family: NatoRegular;
+}
+
+.invester-individula-main .profile-section {
+    width: 100%;
+}
+.invester-individula-main .profile-section {
+    margin-top: 2em;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.invester-individula-main .entity-section .company-name {
+    align-items: center;
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-between;
+}
+
+.invester-individula-main .entity-section .company-name span {
+    font-size: .9em;
+}
+
+.invester-individula-main .ant-radio-group {
+    width: 100%;
+}
+
+.invester-individula-main .ant-radio-button-wrapper {
+    font-weight: 500;
+    height: 40px;
+    padding-top: 5px;
+    text-align: center;
+    width: 33%;
+}
+
+.invester-individula-main .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    background: var(--primary);
+    border-color: var(--white);
+    color: var(--white);
+
+}
+
+.invester-individula-main .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled)::before {
+    background-color: var(--primary);
+}
+
+.add-new-ire-modal .ant-form-vertical .ant-form-item-label > label {
+    /* font-size: 1em !important; */
+}
+
+.invester-ire-sec .ant-card {
+    margin-bottom: 5em;
+    border: 0px !important;
+}
+
+.invester-ire-sec .ant-card .ant-card-body {
+    padding-left: 0px !important;
+}
+
+.invester-ire-sec .ant-card .ant-radio-wrapper {
+    /* right: 0;
+    position: absolute;
+    top: 6px; */
+}
+ 
+#entity-id {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    font-family: NotoBold;
+    width: 99%;
+}
+
+.primary-button-back,
+.primary-button-back:active,
+.primary-button-back:hover,
+.primary-button-back:focus {
+    background: var(--white);
+    color: var(--primary) !important;
+    font-family: NotoRegular;
+    text-align: right;
+    width: auto;
+}
+
+.primary-button-back span {
+    text-decoration: underline;
+}
+
+.payment-table {
+    display: block;
+    height: auto;
+    margin: auto;
+    padding: 2em;
+    width: 60%;   
+}
+
+.contact-col {
+    background: rgba(47, 128, 237, 0.1);
+    padding-right: 0px !important;
+}
+
+.mobile-num img {
+    width: 24px !important;
+    height: 25px !important;
+    margin-right: 1em;
+}
+.mobile-num {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: PopinMedium !important;
+}
+
+.chat-sec {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: NotoRegular;
+}
+
+.chat-sec a {
+    text-decoration: underline;
+    font-weight: 500;
+}
+.chat-sec img {
+    width: 25px !important;
+    height: 25px !important;
+    margin-right: 1em;
+}
+.logo-name {
+    /* align-items: center; */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+.lets-connect {
+    color: var(--primary);
+    font-family: NotoRegular;
+    text-decoration: underline;
+}
+
+.contact-us-section p {
+    color: #868686;
+    font-family: NotoRegular;
+    margin-bottom: 2em;
+}
+
+.company-sec-div {
+    padding-top: 2em;
+    padding-right: 3em !important;
+    
+}
+
+.company-sec-div .company-name {
+    padding-left: 0px !important;
+}
+.logo-name .company-name {
+    text-align: center;
+}
+
+.logo-name .security-section {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.row-logo-name .security-section label:first-child {
+    text-align: left;
+    width: 150px;
+}
+
+.invester-individula-main .security-section  {
+   justify-content:  flex-start;
+}
+
+/* .invester-individula-main .security-section label:last-child {
+    padding-left: 10px;
+} */
+
+.invester-individula-main .investor-opp-card {
+    height: auto !important;
+}
+
+.invester-individula-main .company-name {
+    margin-top: 0px !important;
+}
+
+#steps-investor-individual .ant-steps-small .ant-steps-item-title::after {
+    top: 20px;
+}
+
+#steps-investor-individual .ant-steps-item-title {
+    font-weight: 500;
+    line-height: 38px;
+    font-family: 'NotoRegular';
+}
+
+#steps-investor-individual .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+    color: var(--primary);
+}
+
+#steps-investor-individual .ant-steps-item-icon .ant-steps-icon {
+    top: 6px;
+}
+
+#steps-investor-individual .ant-steps-small .ant-steps-item-tail {
+    top: 12px;
+}
+
+#steps-investor-individual .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    /* background: var(--primary);
+    border-color: var(--primary); */
+}
+
+#steps-investor-individual .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon .ant-steps-icon {
+    color: var(--white);
+}
+
+#steps-investor-individual .ant-steps-small .ant-steps-item-icon {
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+
+#steps-investor-individual .ant-steps-item-finish .ant-steps-item-icon {
+    border-color: var(--primary);
+}
+
+#steps-investor-individual .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+    background-color: var(--primary);
+}
+
+.invester-individula-main .ant-radio-wrapper {
+    font-family: NotoRegular;
+    color: #565656;
+}
+
+.main-investor div {
+    /* font-family: PopinRegular; */
+    line-height: 1.6;
+}
+
+.main-investor div {
+    color: var(--welcome-text);
+    font-weight: 500;
+    font-family: NotoRegular;
+    font-size: 1em;
+    text-align: center;
+}
+
+.main-investor .investor-name {
+    font-family: NotoRegular;
+    color: var(--primary);
+    font-size: 1.4em !important;
+}
+
+.main-investor {
+    /* border: 1px solid var(--primary); */
+    /* padding: 10px; */
+    /* width: 350px; */
+    display: block;
+    margin: auto;
+}
+
+.main-investor .ant-radio-wrapper {
+    float: right;
+}
+
+.main-investor-main h2 {
+    font-family: NotoRegular;
+    font-weight: 500;
+    /* font-size: 1em; */
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.individual-radio-section {
+    padding-top: var(--padding-two-em);
+}
+
+#steps-investor-individual .ant-steps-navigation .ant-steps-item::before {
+    background-color: #1582D4;
+    height: 7px;
+    bottom: -5px;
+}
+
+#steps-investor-individual .ant-steps-small.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item {
+    padding-left: 0px !important;
+    margin-left: 7px !important;
+    margin-right: 7px;
+    cursor: pointer;
+    border-bottom: 5px solid #B8B8B8;
+}
+
+#steps-investor-individual .ant-steps-item-active .ant-steps-item-title{
+    color: #1582D4 !important;
+    font-family: NotoRegular;
+    font-weight: 500;
+}
+
+.invester-individula-main .holdings-details-sub-sec {
+    width: 100%;
+}
+
+.invester-individula-main .hloding-invester {
+    box-shadow: none !important;
+    /* border: 1px solid #dedede; */
+    margin-top: var(--padding-one-em);
+}
+
+.success-section {
+    background: #e5e5e5;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1em;
+    padding-bottom: 12px;
+
+}
+
+.success-section h3 {
+   margin: 0px;
+}
+
+.success-section img {
+    width: 40px;
+}
+
+#holdings-details-sub-sec {
+    padding-top: 0px;
+    /* width: 90% !important; */
+}
+
+#add-Joint .ant-btn {
+    background: rgba(47, 128, 237, 0.1);
+    border: 1px solid rgba(47, 128, 237, 0.8);
+    box-sizing: border-box;
+    border-radius: 6px;
+    /* font-family: PopinRegular; */
+    height: 142px;
+    width: 100%;
+}
+
+.join-investor-heading {
+    margin-top: 1em;
+    font-weight: 500;
+    font-family: NotoRegular;
+}
+
+.join-investor-heading span {
+    font-size: .9em !important;
+}
+
+.logo-company-success-section img {
+    width: 200px;
+    object-fit: contain;
+}
+
+.logo-company-success-section h2 {
+    font-weight: 700;
+    margin: 0px 0px 1em 0px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+#holdings-details-sub-sec h2 {
+    font-weight: 700;
+}
+.documents-row .ant-upload.ant-upload-select{
+    width: 100%;
+}
+.cancel-button,
+.cancel-button:hover,
+.cancel-button:active,
+.cancel-button:focus    {
+    background: transparent;
+    color: var(--primary);
+    border: none;
+    box-shadow: none !important;
+    width: 100px;
+    font-family: NotoRegular;
+}
+
+.save-btn-sec .primary-button {
+    border-radius: 0px;
+}
+
+.success-sec img {
+    display: block;
+    margin: auto;
+    width: 60px;
+}
+
+.success-sec h2 {
+    color: var(--primary);
+    font-weight: 500;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.success-sec p {
+    color: var(--welcome-text);
+    /* font-family: PopinRegular; */
+    /* font-size: 1em; */
+    text-align: center;
+    margin-bottom: 3em;
+}
+.document-type-card .ant-steps-navigation .ant-steps-item-container {
+    width: 100%;
+    text-align: center;
+}
+#investerindividual {
+    width: 100% !important;
+    text-align: left;
+    margin-bottom: 1em !important;
+    font-size: 25px !important;
+}
+.invester-individula-main .back-complete-btn {
+    justify-content: flex-end !important;
+}
+/***Responsive css for only invester individual page***/
+@media screen and (max-width: 767px) {
+    #investerindividual {
+        font-size: 20px !important;
+    }
+    #steps-investor-individual .ant-steps-small.ant-steps-horizontal:not(.ant-steps-label-vertical) .ant-steps-item {
+        margin-left: 20px !important;
+    }
+    .document-type-card .card-main {
+        padding-right: 0px !important;
+    }
+
+    .invester-ire-sec .ant-card {
+        margin-bottom: 0em !important;
+    }
+
+   .invester-individula-main .document-type-card .card-main {
+        /* padding-left: var(--padding-one-em); */
+        padding-right: var(--padding-one-em);
+    }
+
+    .company-sec-div {
+        padding-right: 0px !important;
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .contact-us-section {
+        padding: 1em;
+    }
+
+    .logo-name .security-section {
+        width: 90%;
+        margin-left: 5%;
+        
+    }
+    
+    .logo-name h2 {
+        padding-left: 0px !important;
+    }
+
+    #holdings-details-sub-sec {
+        width: 100% !important;
+    }
+
+    .invester-individula-main .document-type-card .card-main .form-section .ant-col,
+    .share-form-col {
+        width: 100%;
+        margin-bottom: 2em !important;
+    }
+
+    .invester-individula-main .document-type-card .card-main .form-section .ant-col-offset-4 {
+        margin-left: 0px;
+    }
+
+    .contact-col {
+        width: 100% !important;
+    }
+  
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+        .container-payment {
+        width: 80% !important;
+    } 
+}
+
+
+

@@ -1,0 +1,411 @@
+.holdings-details-sub-sec {
+    width: 60%;
+    display: block;
+    margin: auto;
+    /* padding: 1em; */
+}
+
+.logo-text-sec {
+    display: block;
+    margin: auto;
+    /* width: 30%; */
+}
+
+.logo-text-sec img {
+    height: 100px;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.logo-name h2 {
+ font-weight: 500; 
+ margin: 0px;
+ padding-left: var(--padding-one-em);
+}
+
+#holdings-details-sub-sec .break-down-label {
+    padding-left: 0px !important;
+}
+
+.holding-detail-company-name {
+    color: var(--primary);
+    font-weight: 500;
+    display: block;
+    margin: auto;
+    text-decoration: underline;
+    font-family: NotoRegular;
+    /* width: 30%; */
+}
+
+.holdings-details-sub-sec .security-section {
+    margin-top: 6px !important;
+}
+
+.holdings-details-sub-sec .main-investor {
+    border: 0px;
+    padding-left: 0px;
+}
+
+.holdings-details-sub-sec  .ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-head,
+.holdings-details-sub-sec .ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-head-custom {
+    left: calc(100% - 64px ) !important;
+}
+
+.holdings-details-sub-sec .ant-timeline-item-tail {
+    display: none;
+}
+
+.my-holdings-main .ant-menu-vertical {
+    border-right: 0px !important;
+    padding-bottom: 2em;
+}
+.my-holdings-main .ant-menu-vertical .ant-menu-item {
+    padding-left: 0px !important;
+    line-height: 25px;
+    height: 20px;
+}
+
+.break-down-label {
+    color: var(--primary);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.my-holdings-main .ant-tabs > .ant-tabs-nav, .ant-tabs > div > .ant-tabs-nav {
+    border: 1px solid #dedede;
+    width: 50%;
+}
+
+.my-holdings-main .hloding-invester .investor-joint-investor-details,
+.joint-investor-row-holdings {
+    width: 96%;
+    align-items: center;
+    margin-left: 2% !important;
+    margin-right: 2% !important;
+}
+
+.investor-joint-investor-details {
+    padding-bottom: 16px;
+}
+
+.my-holdings-main .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-description {
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: NotoRegular;
+}
+
+.my-holdings-main .price-section,
+.my-holdings-main .security-section {
+    margin-top: 5px !important;
+    font-family: NotoRegular;
+}
+
+.my-holdings-main .security-section {
+    color: var(--primary);
+}
+.my-holdings-main .ant-tabs-tab {
+    background: var(--gray);
+    margin-left: 0px;
+    padding-right: 0px;
+    width: 50%;
+}
+
+.my-holdings-main .ant-tabs-tab-btn {
+    color: var(--primary);
+    /* font-size: 1em; */
+    width: 100%;
+}
+
+.my-holdings-main .ant-tabs > .ant-tabs-nav .ant-tabs-nav-list,
+.my-holdings-main .ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-list {
+    padding-left: 0px;
+}
+
+.my-holdings-main .ant-tabs-tab-active {
+    background: var(--primary);
+}
+
+.my-holdings-main .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--white);
+    /* font-size: 1em !important; */
+}
+
+.my-holdings-main .ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-tail,
+.my-holdings-main .ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-head,
+.my-holdings-main .ant-timeline.ant-timeline-right .ant-timeline-item-right .ant-timeline-item-head-custom {
+    padding-top: 12px;
+}
+
+.security-section-label {
+    text-decoration: underline;
+}
+
+.investor-joint-investor-details {
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    border-radius: 6px;
+    display: block;
+    margin: 2em auto;
+    padding: 2em 2em 1.2em 2em;
+    width: 80%;
+}
+
+.investor-joint-investor-details label {
+    color: #868686;
+    /* font-family: PopinRegular; */
+}
+
+.investor-joint-investor-details label span {
+    color: var(--primary);
+    font-weight: 500;
+}
+
+.investor-joint-investor-details .holdings-details-sub-sec {
+    width: 100% !important;
+}
+
+.joint-investor-row-holdings .holdings-details-sub-sec {
+    width: 90% !important;
+}
+
+.joint-investor-row-holdings .contact-us-section {
+    padding: 2em 0 4em 0 !important;
+}
+
+.joint-investor-row-holdings .mobile-num {
+    margin-bottom: 1em;
+    font-family: NotoRegular;
+}
+
+.my-hold-investor .logo-name-img {
+    display: block;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.my-hold-investor .logo-name-img .company-name {
+    font-weight: 700;
+    font-size: 2em !important;
+}
+
+.my-holding-details {
+    align-items: baseline !important;
+}
+
+.my-holding-details .company-sec-div {
+    padding-top: 0px !important;
+}
+
+.joint-investor-row {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.holding-detail-company-name-copy,
+.holding-detail-company-name-copy {
+    opacity: 0;
+}
+
+.hloding-invester {
+    background: var(--white);
+    /* box-shadow: var(--box-shadow-card); */
+    display: block;
+    margin: auto auto 2em auto;
+    padding: 1em 1em 3em 1em;
+    overflow-x: hidden;
+    /* width: 80%; */
+}
+
+.my-hold-investor {
+    margin-top: 2em;
+    width: 90%;
+}
+
+.bread-crum-container {   
+    margin: 120px auto auto auto;
+    padding-top: 1em;
+    width: 86%;
+} 
+
+.holding-documents {
+    margin-top: 1em;
+}
+
+.thank-you-sec {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.thank-you-sec span {
+    /* color: #1890ff; */
+}
+
+.opportunity-contact {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.opportunity-contact .opportunity-sec {
+    cursor: pointer;
+    color: #1890ff;
+    font-weight: 500;
+    padding-right: 1em;
+    text-decoration: underline;
+}
+
+.opportunity-contact .contact-us {
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.contact-us-section {
+    /* background: rgba(47, 128, 237, 0.1); */
+    /* border: 2px solid var(--primary); */
+    padding: 4em;
+}
+
+.contact-email-btn {
+    margin-top: 2em;
+}
+
+.contact-email-btn a {
+    background: var(--primary);
+    padding: 4px 16px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.logo-name-img {
+    margin-top: 1em;
+}
+.contact-details {
+    width: 70% !important;
+}
+
+.contact-us-section h2 {
+    color: var(--primary);
+    /* font-family: PopinRegular; */
+    margin-bottom: 0px;
+}
+
+.contact-us-section div,
+.contact-us-section label {
+    /* font-family: PopinRegular; */
+}
+
+.contact-us-section .phone-no-span {
+    opacity: 0;
+}
+
+.contact-us-section .anticon {
+    color: var(--primary);
+}
+
+.holding-details-step {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.mobile-only {
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+    .my-holdings-main .hloding-invester .ant-row {
+        width: 100%;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+    .logo-name h2 {
+        padding-left: 0px !important;
+    }
+    .contact-details {
+        width: 100% !important;
+    }
+    .my-holdings-main .hloding-invester .investor-joint-investor-details {
+        margin-left: 0px !important;
+    }
+    .web-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block !important;
+    }
+    #my-holdings .ant-dropdown {
+        min-width: 90%;
+        left: 5%;
+    }
+    .ant-dropdown-link {
+        min-width: 100%;
+        color: #000 !important;
+        background: #fafafa;
+        font-weight: 500;
+        padding: .9em 1em;
+    }
+
+    #my-holdings .ant-dropdown-trigger > .anticon.anticon-down, 
+    #my-holdings .ant-dropdown-link > .anticon.anticon-down {
+        position: absolute;
+        top: 2em;
+        right: 3em;
+    }
+
+    .ant-dropdown-menu-item-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+     .ant-dropdown-menu-item-content {
+        display: flex;
+        width: 100%;
+    }
+
+     .ant-dropdown-menu-item-description {
+        padding-left: 5px;
+    }
+}
+
+.investor-joint-investor-details .ant-steps-item-title {
+    font-weight: 500;
+    font-size: 14px;
+    font-family: NotoRegular;   
+}
+
+.ant-steps-item-description {
+    font-weight: 500;
+}
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  
+
+    .investor-joint-investor-details {
+        width: 96%;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+    
+}
+
+@media screen and (min-width: 1000px)and(max-width: 1200px) {
+    .my-hold-investor {
+        width: 98%;
+    }
+}
+.investor-joint-investor-details .ant-row {
+    /* margin-left: 2% !important; */ 
+}
+
+#investor-joint-investor-details {
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+}
+
+.joint-investor-second-col {
+    padding-left: 8px !important;
+}

@@ -1,0 +1,144 @@
+import React, { Component } from 'react';
+import { notification } from 'antd';
+import { connect } from 'react-redux';
+import { getUserData } from '../../Redux/Crud';
+import { AppHeader, Footer } from '../../Components';
+import './Privacy.css';
+import { Strings } from '../../Constants/Strings';
+
+class Privacy extends Component {
+    constructor(props) {
+        super(props)
+
+        this.state = {
+            user: null,
+        }
+    }
+ //getting user data
+ componentDidMount() {
+     this.getUserDetails()
+ }
+ //showing notification message
+ showingMessage(type, message, title) {
+    notification[type]({
+        description: message,
+    });
+}
+ getUserDetails() {
+    if (localStorage.getItem('userData')) {
+        let user = JSON.parse(localStorage.getItem('userData'));
+        this.props.getUserData(user.id)
+            .then(res => {
+                if (res.type == Strings.successType) {
+                    this.setState({
+                        user: res.data
+                    })
+                    if (res.data && res.data.isVerified) {
+                        // this.loadData(0);
+                    } else {
+                        this.props.history.push('/profile');
+                        this.showingMessage(Strings.errorType, Strings.profileNotVerificationError, Strings.profileTitle)
+                    }
+                } else {
+                    localStorage.clear();
+                    this.props.history.push('/');
+                }
+            })
+    } else {
+        localStorage.clear();
+        this.props.history.push('/');
+    }
+}
+  render() {
+    return (
+        <div className='terms-conditions-main'>
+        <div key={this.state.user ? this.state.user : null}>
+           <AppHeader history={this.props.history} user={this.state.user} />
+       </div>
+       <div className='container'>
+           <div className='terms-content'>
+               <p className='about-company'>
+
+	    <div class=" ">
+  <div class=" ">
+    <h1>Privacy Policy</h1>
+    <div class=" ">Effective as of January 31, 2022</div>
+  </div>
+  <p>We at TopShelf Equity Partners LLC (“TopShelf,” “we,” “us,” or “our”) created this privacy policy (“Privacy Policy”) because we know that you care about how information you provide to us is used and shared. This Privacy Policy relates to the information collection and use practices of TopShelf in connection with our online services (the “Services”), which are made available to you through our website located at <a href="https://www.topshelfequitypartners.com">https://www.topshelfequitypartners.com</a> (the “Site”).</p>
+  <p>We strive to educate parents and kids about how to appropriately safeguard their privacy when using our Services. We are committed to complying with the Children’s Online Privacy Protection Act of 1998 (“COPPA”), which requires us to inform parents and legal guardians about our information collection and use practices. COPPA also requires that we obtain parental consent before we allow children under the age of 13 to access and/or use our Services. We urge kids to check with their parents before entering information through our Site and/or Services, and we recommend that parents discuss with their kids restrictions regarding the online release of Personal Information (as defined below) to anyone they don’t know.</p>
+  <p>By visiting our Site and/or using our Services, or by permitting your child to use our Services, you are agreeing to the terms of this Privacy Policy and the accompanying Terms of Use. Capitalized terms not defined in this Privacy Policy shall have the meaning set forth in our Terms of Use.</p>
+  <ol>
+    <li><strong>Usage Information</strong></li>
+  </ol>
+  <p><strong>Personal Information</strong></p>
+  <p>We do not collect any personal information from you unless you voluntarily provide it to us.</p>
+  <p>When you sign up to become a user of the Site (a “User”), you will be asked to provide us with certain personal information, such as your first name, last name, and email address. In this Privacy Policy, we refer to this information as “Personal Information.” Other than the online contact information required to obtain parental consent, we do not collect any Personal Information from Users under the age of 13 unless the User’s parent or legal guardian has first provided us with consent for that User to use the Services and disclose Personal Information to us. If you are a User under the age of 13, please do not send any Personal Information to us if we have not obtained prior consent from your parent or guardian. If we learn we have collected Personal Information from a User under the age of 13 without parental consent, or if we learn a User under the age of 13 has provided us Personal Information beyond what we request from him or her, we will delete that information as quickly as possible. If you believe that a User under the age of 13 may have provided us Personal Information in violation of this Privacy Policy, please contact us at <a href="mailto:Privacy@topshelfequitypartners.com">privacy@topshelfequitypartners.com</a>.</p>
+  <p><strong>Usage Information</strong></p>
+  <p>Like most websites, we use automatic data collection technology when you visit the Site to record information that identifies your computer, to track your use of our Site, and to collect certain basic information about you and your surfing habits. This information includes information about your operating system, your IP addresses, browser type and language, referring and exit pages and URLs, keywords, date and time, amount of time spent on particular pages, what sections of a website you visit, and similar information concerning your use of the Site and the Services (the “Usage Information”).</p>
+  <p>We collect this Usage Information by using cookies and pixel tags (also called web beacons or clear gifs). Cookies are small packets of data that a website stores on your computer’s hard drive so that your computer will “remember” information about your visit. Clear gifs are tiny graphics with a unique identifier, similar in function to cookies, and are used to track the online movements of website users. You can reject cookies by following the directions provided in your Internet provider’s “help” file. If you reject cookies, you may still visit the Site, but may not be able to use some areas of the Site and/or the Services.</p>
+  <p>We do not collect Personal Information in this way, but if you’ve provided us with Personal Information, we may associate that information with the information that is collected automatically. Automatic data collection may be performed on our behalf by our services providers.</p>
+  <p><strong>2. <strong><strong>How We Use Your Information</strong>. </strong>
+  </strong>
+  </p>
+  <p>We may use your Personal Information and Usage Information in a manner that is consistent with this Privacy Policy and the context of our relationship with you. We will use your Personal Information and Usage Information collected through the Site for the following purposes:</p>
+  <ol>
+    <li>To identify you when you sign in to your account;</li>
+    <li>To respond to your requests and to provide you with the Services;</li>
+    <li>To respond to your inquiries and contact you about changes to the Site and/or the Services;</li>
+    <li>To send you notices (for example, in the form of e-mails, mailings, and the like) regarding products or services you are receiving, and for billing and collection purposes;</li>
+    <li>To send you information we think you may find useful or that you have requested from us;</li>
+    <li>To enhance and improve the Site or the Service, such as through personalized features and content;</li>
+    <li>To analyze the use of the Site and the Service and the people visiting to improve our content and Site and the Service;</li>
+    <li>To investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the physical safety of any person, violations of our policies, or as otherwise required by law;</li>
+    <li>For any other purposes disclosed at the time the information is collected or to which you consent; and</li>
+    <li>As otherwise specifically described in this Privacy Policy.</li>
+  </ol>
+  <p><strong>3. <strong>Disclosure of Personal Information to Third Parties</strong>.</strong>
+  </p>
+  <p>We do not disclose your Personal Information to third parties for their direct marketing purposes.</p>
+  <p>We, like many businesses, sometimes hire other companies to perform certain business-related functions. Examples include mailing information, maintaining databases, hosting services, and processing payments. When we employ another company to perform a function of this nature, we provide them with the information that they need to perform their specific function, which may include Personal Information.</p>
+  <p>If we or all or substantially all of our assets are acquired, we expect that the information that we have collected, including Personal Information, would be transferred along with our other business assets.</p>
+  <p>We may disclose your Personal Information and Usage Information to government authorities and to other third parties when compelled to do so by government authorities, at our discretion, or otherwise as required by law, including but not limited to in response to court orders and subpoenas. We may also disclose your Personal Information and Usage Information when we have reason to believe that someone is or may be causing injury to or interference with our rights or property, other users of this Site, or anyone else that could be harmed by such activities.</p>
+  <p><strong>4. <strong>How We Protect Your Information</strong>.</strong>
+  </p>
+  <p>We take commercially reasonable steps to protect the Personal Information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. Please understand, however, that no security system is impenetrable. We cannot guarantee the security of our databases, nor can we guarantee that the information you supply will not be intercepted while being transmitted to and from us over the Internet. In particular, e-mail sent to or from us may not be secure, and you should therefore take special care in deciding what information you send to us via e-mail.</p>
+  <p><strong>5. <strong><strong>Accessing and Modifying Account Information</strong>. </strong>
+  </strong>
+  </p>
+  <p>You may update the information that is stored in your user account by visiting <a href="www.topshelfequitypartners.com">www.topshelfequitypartners.com</a> or by e-mailing us at <a href="mailto:Privacy@topshelfequitypartners.com">privacy@topshelfequitypartners.com</a>.</p>
+  <p>We strive to help parents ensure that their kids have a safe experience using our Services. Parents or legal guardians can review any Personal Information collected about their child under 13 years of age, have this information deleted, request that there be no further collection or use of their child’s Personal Information, and/or allow for our collection and use of their child’s Personal Information while withholding consent for us to disclose it to third parties. We take steps to verify the identity of anyone requesting information about a child and to ensure that the person is in fact the child’s parent or legal guardian.</p>
+  <p><strong>6. <strong><strong>Your Choices</strong>. </strong>
+  </strong>
+  </p>
+  <p>If you wish to stop receiving promotional e-mails, you may do so by visiting <a href="www.topshelfequitypartners.com">www.topshelfequitypartners.com</a> or by e-mailing <a href="mailto:Privacy@topshelfequitypartners.com">privacy@topshelfequitypartners.com.</a> You may also choose to unsubscribe from our e-mails by following the instructions in the bottom of the email.</p>
+  <p><strong>7. <strong><strong>Links</strong>. </strong>
+  </strong>
+  </p>
+  <p>The Site may contain content, services, advertising and other materials that link to websites operated by third parties. We have no control over those other sites, and this Privacy Policy does not apply to them. Please refer to the privacy policies of those sites for more information on how the operators of those sites collect and use your Personal Information.</p>
+  <p><strong>8. <strong><strong>California Privacy Rights: Shine the Light Law</strong>. </strong>
+  </strong>
+  </p>
+  <p>Under California Civil Code Section 1798.83, California residents who have an established business relationship with us may choose to opt out of our sharing their contact information with third parties for direct marketing purposes. If you are a California resident and you wish to opt out, please send an e-mail to <a href="mailto:Privacy@topshelfequitypartners.com">privacy@topshelfequitypartners.com</a>.</p>
+  <p><strong>9. <strong><strong>Important Notice to Users Outside the U.S.</strong> </strong>
+  </strong>
+  </p>
+  <p>The Site and the Services are operated in the United States. If you are located outside of the United States, please be aware that any information you provide to us will be transferred to the United States. By providing us with any information through the Site or the Services, you consent to this transfer.</p>
+  <p><strong>10. <strong><strong>Changes to This Privacy Policy</strong>. </strong>
+  </strong>
+  </p>
+  <p>This Privacy Policy is effective as of the date stated at the top of this Privacy Policy. We may change this Privacy Policy from time to time and will post any changes on the Site as soon as they go into effect. By accessing the Site or using the Services after we make any such changes to this Privacy Policy, you are deemed to have accepted such changes. Please refer back to this Privacy Policy on a regular basis.</p>
+  <p><strong>11. <strong>How to Contact Us</strong>.</strong>
+  </p>
+  <p>If you have questions about this Privacy Policy, please e-mail us at <a href="mailto:Privacy@topshelfequitypartners.com">privacy@topshelfequitypartners.com</a>, “PRIVACY POLICY” in the subject line, or mail us at the following address: 1692 Bridle Blvd., Frisco, Texas 75036.</p>
+  <p></p>
+</div>
+
+               </p>
+           </div>
+       </div>
+       <Footer history={this.props.history} />
+   </div>
+    )
+  }
+}
+export default connect(null, {getUserData})(Privacy);

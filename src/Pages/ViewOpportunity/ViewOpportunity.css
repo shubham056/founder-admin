@@ -1,0 +1,66 @@
+.view-opportunity-main {
+    overflow-x: hidden;
+}
+
+.view-opportunity-main .admin-details {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.view-table .search-filter {
+    margin-bottom: var(--padding-one-em);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.view-table .search-filter .ant-btn-primary {
+    height: 32px !important;
+}
+
+.view-table .search-filter .filter-image {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px !important;
+}
+
+.view-table .add-opportunity-btn {
+    margin-right: 10px !important;
+}
+
+.view-opportunity-main .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    background: transparent !important;
+    /* height: 40px !important; */
+}
+
+#admin-details .ant-col {
+    box-shadow: none !important;
+}
+.view-opportunity-main .ant-select-single .ant-select-selector .ant-select-selection-item, 
+.view-opportunity-main .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+    /* line-height: 35px !important; */
+}
+
+.view-opportunity-main .form-section {
+    width: 90%;
+    display: block;
+    margin: 2em auto;
+}
+
+.investor-opp-card:hover,
+.my-holdings:hover {
+    transform: scale(1.05) translate(10px, -10px);
+    transition: all 300ms ease-in-out 0s;
+    /* box-shadow: var( --box-shadow-card); */
+}
+
+.investor-opp-card:hover .invest-button-sec .ant-btn {
+    background: var(--primary);
+    color: #fff;
+}
+
+.investor-opp-card,
+.my-holdings {
+    transform: scale(1) translate(0px, 0px);
+    transition: all 300ms ease-in-out 0s;
+}

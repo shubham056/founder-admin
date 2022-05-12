@@ -1,0 +1,26 @@
+.success-message-sec {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+}
+iframe {
+    height: 100vh;
+    width: 100%;
+}
+
+#iframe-success {
+    width: 50%;
+    display: block;
+    margin: 2em auto;
+}
+
+.iframe-back {
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+.iframe-span-back {
+    cursor: pointer;
+
+}

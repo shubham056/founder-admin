@@ -1,0 +1,46 @@
+.add-opportunity-main .ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+    height: 36px;
+}
+
+.add-opportunity-main .ant-upload.ant-upload-select {
+    width: 100%;
+}
+
+.add-opportunity-main {
+    overflow-x: hidden;
+}
+
+.add-opportunity-main .ant-select,
+.add-opportunity-main .ant-input-number {
+    border: 1px solid var(--primary);
+    width: 100%;
+}
+
+.add-opportunity-main .ant-input-number,
+.add-opportunity-main .ant-input-number-input {
+    height: 40px;
+}
+
+.add-opportunity-main .ant-select-single .ant-select-selector .ant-select-selection-item,
+.add-opportunity-main .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+    /* font-family: PopinRegular; */
+    line-height: 36px;
+}
+
+.add-opportunity-main .document-type-card {
+    margin: 3px;
+}
+
+.save-section {
+    text-align: right;
+}
+
+.save-section .primary-button {
+    border-radius: 0px;
+    width: 100px;
+}
+
+.add-opportunity-main .ant-btn {
+    font-weight: 700;
+}
+
